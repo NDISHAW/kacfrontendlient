@@ -78,8 +78,8 @@ function SignUp({ onLogin }) {
                         placeholder="Enter your email address"
                         required
                       />
-                    </div>
-                  </div> */}
+                    </div> */}
+                  </div>
                   <div className="flex flex-wrap -mx-3 mb-4">
                     <div className="w-full px-3">
                       <label

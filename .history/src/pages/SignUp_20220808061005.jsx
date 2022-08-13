@@ -10,20 +10,20 @@ function SignUp({ onLogin }) {
 
   function handleSubmit(e) {
     e.preventDefault();
-    fetch("/signup", {
-      method: "POST",
-      headers: {
-        "Content-Type": "application/json",
-      },
-      body: JSON.stringify({
-        username,
-        password,
-        password_confirmation: passwordConfirmation,
-      }),
-    })
-      .then((r) => r.json())
-      .then(onLogin);
-  }
+  //   fetch("/signup", {
+  //     method: "POST",
+  //     headers: {
+  //       "Content-Type": "application/json",
+  //     },
+  //     body: JSON.stringify({
+  //       username,
+  //       password,
+  //       password_confirmation: passwordConfirmation,
+  //     }),
+  //   })
+  //     .then((r) => r.json())
+  //     .then(onLogin);
+  // }
   return (
     <div className="flex flex-col min-h-screen overflow-hidden">
       {/*  Site header */}

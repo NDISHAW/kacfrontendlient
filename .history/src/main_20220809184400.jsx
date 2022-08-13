@@ -10,4 +10,3 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     </Router>
   </React.StrictMode>
 );
-// sudo apt autoremove libllvm10
